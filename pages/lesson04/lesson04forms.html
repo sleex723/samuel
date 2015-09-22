@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <form action"/test" method = "POST">
+    name: <input type="text" name="text" value="">
+    <br>
+    password: <input type="password" name="password" value="">
+    <br>
+    email: <input type="email" name="email" value="">
+    <br>
+    <input type="submit">
+  </form>
+
+  <form action="form-responses/new" method="post">
+<input type="text" name="firstname" value="default" size="100" autofocus>
+<br>
+<input type="password" name="pswd">
+<br>
+<input type="email" name="userEmail" placeholder="hello@site.com">
+<br>
+<br>
+<input type="checkbox" name="weird" value="code-blue" checked><span>pick this!</span>
+<br>
+<input type="checkbox" name="optout" value="skeptical" disabled><span>or pick this</span>
+<br>
+<br>
+<select name="car">
+  <optgroup label="Swedish Cars">
+    <option value="boring">Volvo</option>
+    <option value="cool">Honda</option>
+  </optgroup>
+</select>
+<br>
+<br>
+<textarea name="user_message" rows="8" cols="40"></textarea>
+<input type="submit">
+  </form>
+
+
+</body>
+</html>

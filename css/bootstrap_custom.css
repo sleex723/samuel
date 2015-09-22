@@ -1,0 +1,16 @@
+.jumbotron {
+  background-image:url("http://images6.fanpop.com/image/photos/33200000/Cute-puppy-SAVED-YAY-adorable-animals-are-in-need-just-help-33290382-500-375.jpg");
+  height:500px;
+
+}
+
+.jumbotron-custom{
+  background-image:url("http://images6.fanpop.com/image/photos/33200000/Cute-puppy-SAVED-YAY-adorable-animals-are-in-need-just-help-33290382-500-375.jpg");
+  height:500px;
+}
+
+#test {
+  width:auto;
+  height: auto;
+  background-color: grey;
+}

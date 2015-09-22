@@ -1,0 +1,14 @@
+.target-box {
+  height: 100px;
+  width: 100px;
+  background-color: peachpuff;
+  position: relative;
+  left: 100px;
+  right: 500px;
+  top: 100px;
+}
+
+#special {
+  position: relative;
+  left: 5px;
+}
